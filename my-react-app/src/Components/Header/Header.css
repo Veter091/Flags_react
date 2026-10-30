@@ -1,0 +1,24 @@
+.header {
+    width: 90%;
+    background-color: var(--color-light-dark);
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-size: var(--font-size-text);
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 60px;
+}
+
+.theme {
+    display: flex;;
+}
+
+.theme__icon {
+    width: 20px;
+    height: 20px;
+    background: url('../../assets/images/sun.svg') no-repeat;
+}
